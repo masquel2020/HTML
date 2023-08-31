@@ -1,4 +1,87 @@
-body{background-color: aqua;
-
-
+body{
+    background-color: aqua;
 }
+header{
+    background-color: rgb(157, 224, 247) !important;
+    border: 2px solid #2ae6ec;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(38, 149, 223, 0.842);
+}
+header img{
+    padding:  20px;
+}
+nav{
+    background-color: rgb(174, 225, 245);
+    border: 2px solid rgb(53, 209, 248);
+    border-radius: 19px;
+}
+nav p{
+    text-align: center;
+    color: rgb(42, 89, 150);
+    font-size: 25px;
+}
+section{
+    width: 40%;
+    border: 2px solid rgb(41, 23, 204);
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px auto;
+    background: linear-gradient(aqua, blue);
+}
+form{
+    background: rgb(57, 252, 235);
+    width: 100%;
+    border-radius: 30px;
+    margin: 10px auto;
+    box-shadow:outset 0 0 8px rgba(53, 209, 248);
+}
+fieldset{
+    border-style: none;
+}
+label{
+    font-size: 18px;
+}
+textarea{
+    resize: both;
+    max-height: 100px;
+}
+input:focus, textarea:focus{
+    border-color: aqua;
+    cursor: pointer;
+    box-shadow: inset 0 0 8px aquamarine;
+}
+form button{
+    width: 30%;
+    margin: 10px auto;
+    height: 30px;
+    background: radial-gradient(blue,rgb(66, 190, 221));
+    color: cadetblue;
+    border-radius: 15px;
+}
+form button:hover{
+    background-color: azure;
+    text-decoration: overline;
+    color: black;
+    cursor: pointer;
+}
+form input{
+    height: 20px;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+
